@@ -10,6 +10,12 @@ a = 54
 
 puts a.next # => 55
 
+# VALORES DE RETORNO Y PASO DE ARGUMENTOS EN LOS METODOS 
 
+b = "hola mundo"
+c= b.upcase
+
+puts b # =>  "hola mundo"
+puts c # => "HOLA MUNDO"
 
 system("pause")
