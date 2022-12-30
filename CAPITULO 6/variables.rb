@@ -33,3 +33,19 @@ productos_vendidos = 12
 productos_en_almacen -= productos_vendidos
 
 puts productos_en_almacen  # => 60
+
+# ASIGNAR UNA VARIABLE A OTRA
+
+nombre_minuscula = "josé"
+nombre_mayuscula = nombre_minuscula
+nombre_mayuscula.upcase!
+
+puts nombre_minuscula # => JOSÉ // Ocupan el mismo espacio de memoria
+
+#Asignar un diferente espacio de memoria
+
+original = "jose"
+copia = nombre_minuscula.clone
+
+puts original.object_id
+puts copia.object_id
