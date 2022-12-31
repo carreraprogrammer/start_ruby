@@ -19,3 +19,5 @@ puts copia.__id__
 
 nombre_minuscula = "jose"
 nombre_minuscula.freeze
+
+nombre_minuscula.upcase! # =>  error
