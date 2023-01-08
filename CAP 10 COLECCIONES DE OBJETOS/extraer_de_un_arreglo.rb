@@ -12,4 +12,4 @@ puts estilos_musicales.take(3).join(', ') #=> ["Rock", "Pop", "Clásica"]
 
 #Drop : omite el numero de elementos y devuelve los restantes
 
-puts estilos_musicales.drop(9).join(', ') #=>
+puts estilos_musicales.drop(9).join(', ') #=> Country, Funk, Metal
