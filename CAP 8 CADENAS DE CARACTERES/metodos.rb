@@ -36,4 +36,5 @@ puts "de minúsculas a mayúsculas".upcase #=> "DE MINÚSCULAS A MAYÚSCULAS"
 
 #SWAPCASE
 
-puts "miNúScULAS poR mAYuscuLAs y MayUScULas poR miNUsculas".swapcase
+puts "miNúScULAS poR mAYuscuLAs y MayUScULas poR miNUsculas".swapcase #=> "MInÚsCulas POr MayUSCUlaS Y mAYusCulAS POr MInuSCULAS"
+

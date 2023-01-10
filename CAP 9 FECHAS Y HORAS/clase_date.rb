@@ -24,4 +24,4 @@ fecha_hora_expedicion = Time.new(2018, 12, 7, 7, 7, 54, "-06:00")
 
 puts fecha_hora_expedicion #=> 1570-12-12T17:37:09-06:00
 
-puts fecha_hora_expedicion.strftime('%d/%m/%y') #=> 
+puts fecha_hora_expedicion.strftime('%d/%m/%y') #=> 07/12/18
